@@ -21,9 +21,11 @@ Para realizar el despliegue:
 1. La base de datos a usar es MongoDB, en el archivo application.properties se encuentra la configuración y se debe crear una base de datos con nombre (preferiblemente con nombre g8, sino el que se prefiera pero se debe cambiar las variables de entorno en application.properties
 2. Una vez modificadas las variables de entorno en application.properties se debe compilar el Back-end preferiblemente en Intellij IDEA
 3. Mediante postman se crerán algunos usuarios y productos para poder visualizar el funcionamiento de la aplicación web:
+
 USUARIOS
 -endpoint: http://localhost:8080/api/user/new
 -con este body en formato JSON:
+
 USUARIO 1:
 { 
  "id": 1, 
@@ -105,7 +107,7 @@ PRODUCTO 1:
  }
  
  
-3. Luego de compilar en back-end y realizar la creación de productos, ingresar en el navegador: http://localhost:8080/ 
+4. Luego de compilar en back-end y realizar la creación de productos, ingresar en el navegador: http://localhost:8080/ 
 
 
 # CONSTRUIDO CON

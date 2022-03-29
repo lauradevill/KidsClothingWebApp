@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <!--AUTHOR-->
+    <meta name="author" content="Laura De Villeros">
+    <!-- WHAT IS THE APP ABOUT-->
+    <meta name=description" content="Aplicación Alto Turmequé">
+    <meta name="keywords" content="App Turmequé kids clothing">
+    <title>Admon</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content=""/>
+    <!--IMPROVE MOBILE DEVICES DISPLAY-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <base href="/"/>
+    <!--JQUERY LIBRARY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--BOOTSTRAP LIBRARY-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+          crossorigin="anonymous">
+    <!-- STYLES-->
+    <link rel="stylesheet" href="css/admonStyle.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>Bienvenido(a) a la página de administración</h2>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link"><button type="button" class="btn btn-dark" onClick="usersAdmon()">
+                    * Administrar usuarios</button></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"><button type="button" class="btn btn-dark" onclick="productsAdmon()">
+                    * Administrar productos</button></a>
+            </li>
+        </ul>
+    </div>
+    <!--JAVASCRIPT SCRIPT-->
+    <script type="text/javascript" src="js/admonFunctions.js"></script>
+    <script type="text/javascript" src="js/functionsClearFields.js"></script>
+</body>
+</html>

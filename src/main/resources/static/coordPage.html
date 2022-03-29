@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <!--AUTHOR-->
+    <meta name="author" content="Laura De Villeros">
+    <!-- WHAT IS THE APP ABOUT-->
+    <meta name=description" content="Aplicación Alto Turmequé">
+    <meta name="keywords" content="App Turmequé kids clothing">
+    <title>Página de Coordinador</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content=""/>
+    <!--IMPROVE MOBILE DEVICES DISPLAY-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <base href="/"/>
+    <!--JQUERY LIBRARY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--BOOTSTRAP LIBRARY-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+          crossorigin="anonymous">
+    <!-- STYLES-->
+    <link rel="stylesheet" href="css/indexStyle.css">
+</head>
+<body>
+    <div class="p-1" id="bar">
+        <h1 id="texth1Index">Bienvenido a Turmequé Kids Clothing</h1>
+    </div>
+    </br>
+    <div class="container-sm p-1 my-5 border">
+        <img class="rounded mx-auto d-block" src="images/logoTurmeque.png">
+        <p class="h3" id="texth3Index">Usted está autenticado como:</p>
+        <div id="coordData"></div>
+    </div>
+    <p class="h4 text-center">Ordenes de Zona</p>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary" onclick="orderList()">Click aquí</button>
+        <br />
+        <div id="ordersTable"></div>
+    </div>
+    <!--JAVASCRIPT SCRIPT-->
+    <script type="text/javascript" src="js/coordPageFunctions.js"></script>
+    <script type="text/javascript" src="js/functionsClearFields.js"></script>
+</body>
+</html>

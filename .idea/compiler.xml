@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CatalogoOnlineFinal" />
+        <module name="catalogo" />
+        <module name="CatalogoOnlineWebAppTurmeque" />
+        <module name="CatalogoOnlinewWebAppTurmeque" />
+        <module name="CatalogoOnlineFinalArreglando" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CatalogoOnlineFinal" options="-parameters" />
+      <module name="CatalogoOnlineFinalArreglando" options="-parameters" />
+      <module name="CatalogoOnlineWebAppTurmeque" options="-parameters" />
+      <module name="CatalogoOnlinewWebAppTurmeque" options="-parameters" />
+      <module name="catalogo" options="-parameters" />
+    </option>
+  </component>
+</project>

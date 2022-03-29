@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container-sm {
+    margin-top: 30px;
+    max-width: 900px;
+    height: 320px;
+    border: 1px solid #414141;
+    background-color: #b9e6eb;
+    border-radius: 10px;
+}
+.mb-3 mt-3 {
+    margin-top: 50px;
+}
+h1 {
+    font-family: Baloo;
+}
+.container {
+    margin-top:20px;
+}
+#newOrderBar {
+    background-color: #414141;
+}

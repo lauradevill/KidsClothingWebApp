@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container-sm {
+    margin-top: 60px;
+    max-width: 600px;
+    height: 290px;
+    border: 1px solid #414141;
+    background-color: #b9e6eb;
+    border-radius: 10px;
+}
+#texth1Index {
+    color: #414141;
+    text-align: center;
+    font-family: Baloo;
+}
+#texth3Index {
+    color: #414141;
+    text-align: center;
+    font-family: Baloo;
+}
+#bar {
+    background-color:#b9e6eb;
+}
+.btn {
+    alignment: center;
+}
+footer {
+    font-family: Baloo;
+    text-align: center;
+}

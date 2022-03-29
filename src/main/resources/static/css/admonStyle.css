@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:#b9e6eb;
+}
+h2 {
+    font-family: Baloo;
+}
+#admonUsersBar {
+    background-color: #414141;
+}
+#admonProductsBar {
+    background-color: #414141;
+}
